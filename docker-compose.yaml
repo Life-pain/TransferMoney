@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  TransferMoney:
+    image: 'transfer_money'
+    container_name: 'Transfermoney'
+    ports:
+      - '5500:5500'
